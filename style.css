@@ -1,0 +1,550 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Flexo;
+    src: url(Flexo-CapsDEMO.otf);
+}
+
+body {
+    margin: 0px;
+
+    
+
+}
+
+.header {
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #F5F5F5;
+    height: 63px;
+    border-bottom: solid 2px #dedede;
+
+
+
+
+}
+
+.one {
+
+    box-shadow: 0 0 7px 1px #666666;
+    background-color: #fff;
+
+    vertical-align: middle;
+    width: 100px;
+
+}
+
+
+.one>img {
+    margin-top: 8px;
+    margin-left: 10px;
+
+}
+
+.two {
+
+    padding: 10px 10px 8px 10px;
+    vertical-align: middle;
+}
+
+.three {
+    border-left: solid 2px #dedede;
+    padding: 10px 10px 8px 10px;
+    vertical-align: middle;
+    border-right: solid 2px #dedede;
+}
+
+.four {
+
+    padding: 7px 7px 0px 8px;
+
+}
+
+.five {
+
+    padding: 7px 0px 0px 0px;
+}
+
+.six {
+    padding: 7px 0px 0px 7px;
+}
+
+
+.material-symbols-outlined {
+
+    font-size: 30px;
+    margin: 15px 0px 8px 0px;
+
+}
+
+.navigation {
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 92px;
+    margin-top: 2px;
+
+
+}
+
+.navigation>div>span {
+    color: inherit;
+}
+
+
+.navigation>div {
+
+    line-height: 15px;
+    text-align: center;
+    height: 87px;
+    width: 130px;
+}
+
+.first {
+    background-color: grey;
+    border-bottom: 5px solid grey;
+    border-bottom-left-radius: 5px;
+
+}
+
+.second {
+    color: grey;
+    border-bottom: 5px solid red;
+
+}
+
+.second:hover {
+    background-color: red;
+    color: white;
+}
+
+.third {
+    color: grey;
+    border-bottom: 5px solid orange;
+}
+
+.third:hover {
+    background-color: orange;
+    color: white;
+}
+
+.fourth {
+    color: grey;
+    border-bottom: 5px solid yellow;
+}
+
+.fourth:hover {
+    background-color: yellow;
+    color: white;
+}
+
+.fifth {
+    color: grey;
+    border-bottom: 5px solid green;
+}
+
+.fifth:hover {
+    background-color: green;
+    color: white;
+}
+
+.sixth {
+    color: grey;
+    border-bottom: 5px solid slateblue;
+}
+
+.sixth:hover {
+    background-color: slateblue;
+    color: white;
+
+}
+
+.seventh {
+    color: grey;
+    border-bottom: 5px solid blue;
+}
+
+.seventh:hover {
+    background-color: blue;
+    color: white;
+
+}
+
+.animate__animated:hover {
+    animation: bounce;
+    animation-duration: 2s;
+
+}
+
+.card-1 {
+    height: 490px;
+    background-color: #e6bc2f;
+    ;
+    width: 580px;
+    border-radius: 6px;
+
+
+}
+
+.card-1>img {
+    height: 320px;
+    width: 580px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-2>img {
+    width: 290px;
+    height: 160px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-2 {
+    width: 290px;
+    height: 310px;
+    background-color: #734bb2;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.card-3>img {
+    width: 120px;
+    height: 155px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+
+}
+
+.card-3 {
+    width: 290px;
+    height: 160px;
+    background-color: #C7AA79;
+    border-radius: 6px;
+}
+
+.body-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.card2-3 {
+    margin-left: 15px;
+}
+
+.card-4>img {
+    width: 285px;
+    height: 156px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-4 {
+    width: 285px;
+    height: 300px;
+    background-color: #855ac9;
+    ;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.card-5 {
+    width: 280px;
+    height: 275px;
+    background-color: #30a7d7;
+    ;
+    border-radius: 6px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    margin: 0px 15px;
+
+
+
+}
+
+.card-5>img {
+    width: 280px;
+    height: 135px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-6 {
+    width: 290px;
+    height: 294px;
+    background-color: #313131;
+    ;
+    border-radius: 6px;
+    margin-bottom: 15px;
+
+}
+
+.card-6>img {
+    width: 290px;
+    height: 160px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.section {
+
+    margin: 0px auto;
+    margin-top: 25px;
+    max-width: 1024px;
+    width: 100%;
+    position: relative;
+}
+
+.sub-section {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.container {
+    background-image: url(Images/container_bg.png);
+    margin: 0 auto;
+    max-width: 1280px;
+    overflow: hidden;
+  
+    margin-bottom: 150px;
+
+}
+
+.pokemon-1 {
+
+    width: 250px;
+    height: 330px;
+    background-color: rgb(45, 41, 41);
+    border: 3px solid black;
+
+
+}
+
+.pokemon-1>img {
+
+    width: 250px;
+    height: 230px;
+}
+
+.featured-pokemon {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card-7 {
+    width: 280px;
+    height: 400px;
+    background-color: #855ac9;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.card-7>img {
+    width: 280px;
+    height: 160px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-8 {
+    width: 290px;
+    height: 400px;
+    background-color: #313131;
+    border-radius: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -40px;
+
+}
+
+.card-8>img {
+    width: 290px;
+    height: 160px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-9 {
+    width: 300px;
+    height: 340px;
+    background-color: #4DAD5D;
+    border-radius: 6px;
+    margin-top: -20px;
+}
+
+.card-9>img {
+    width: 300px;
+    height: 160px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.sub-section-2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-10 {
+    width: 280px;
+    height: 275px;
+    background-color: #30a7d7;
+    border-radius: 6px;
+    padding-bottom: 12px;
+}
+
+.card-10>img {
+    width: 280px;
+    height: 135px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-11 {
+    width: 290px;
+    height: 295px;
+    background-color: #e6bc2f;
+    border-radius: 6px;
+    padding-bottom: 12px;
+    margin: 0px 15px;
+
+}
+
+.card-11>img {
+    width: 290px;
+    height: 160px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-12 {
+    width: 280px;
+    height: 410px;
+    background-color: #ee6b2f;
+    border-radius: 6px;
+    padding-bottom: 12px;
+    margin-top: -80px;
+
+}
+
+.card-12>img {
+    width: 280px;
+    height: 165px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.sub-section-3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-privacy {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+
+}
+
+.privacy-policy {
+    margin-left: 40px;
+    margin-top: 45px;
+    text-align: left;
+
+
+}
+
+.Footer {
+    background-color: #1f1f1f;
+    height: 650px;
+}
+
+.link {
+    margin: 0px 45px;
+}
+
+.Company {
+    margin-right: 25px;
+}
+
+.logo {
+    margin-left: 25px;
+}
+
+.Company>ul,
+h2 {
+    color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Company>ul>li {
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+
+.Company>ul {
+    margin-left: -34px;
+}
+
+.Company>ul>li:hover {
+    text-decoration: underline;
+
+
+}
+
+.line-1 {
+    height: 240px;
+    background-color: black;
+    width: 1px;
+}
+
+.logo>ul {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.logo>ul>li {
+    list-style-type: none;
+    font-size: 13px;
+    margin-left: -40px;
+    margin-bottom: 6px;
+}
+
+.logo>ul>li:hover {
+    text-decoration: underline;
+
+
+}
+
+.last-part {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+::placeholder {
+    color: grey;
+    font-weight: bold;
+}
